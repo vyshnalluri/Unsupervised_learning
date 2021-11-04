@@ -20,7 +20,7 @@
 
 * Filter for cryptocurrencies that have been mined. That is, the total coins mined should be greater than zero.
 
-* In order for your dataset to be comprehensible to a machine learning algorithm, its data should be numeric. Since the coin names do not contribute to t he analysis of the data, delete the `CoinName` from the original dataframe.
+* In order for your dataset to be comprehensible to a machine learning algorithm, its data should be numeric. Since the coin names do not contribute to the analysis of the data, delete the `CoinName` from the original dataframe.
 
 * Your next step in data preparation is to convert the remaining features with text values, `Algorithm` and `ProofType`, into numerical data. To accomplish this task, use Pandas to create dummy variables. Examine the number of rows and columns of your dataset now. How did they change?
 
